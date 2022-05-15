@@ -1,0 +1,21 @@
+{
+  "name": "pagediv",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "proxy": "http://locathost:5000/",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start:back": "nodemon --exec babel-node src/server.js",
+    "start:front": "cd front && npm run start"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/core": "^7.17.10",
+    "@babel/node": "^7.17.10",
+    "@babel/preset-env": "^7.17.10",
+    "express": "^4.18.1",
+    "nodemon": "^2.0.16"
+  }
+}
